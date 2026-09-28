@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Desenvolvedor Web">
+    <meta name="keywords" content="HTML5, semântica, desenvolvimento">
+    <title>Uma breve descrição sobre mim</title>
+</head>
+<body>
+    <header>
+    <h1>Lucas Quione Santos - Desenvolvedor Web</h1>
+    <nav>
+    <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+     </ul>
+     </nav>
+</header>
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+
+    <main>
+     <section id="sobre">
+     <h2>Sobre mim</h2>
+     <img src="assets/unnamed.webp" alt="Minha foto" width="150" height="150">
+     <p>Sou estudante de <strong>Desenvolvimento de sistemas</strong> do Senai Jacob Lafer</p><br>
+     <p>Estou criando conhecimento em certas linguagens tipo HTML, CSS, JavaScript e PHP</p><br>
+     <h2>Minhas habilidades</h2>
+     <ul>
+        <li>Estrutura de Dados</li>
+        <li>Formulários</li>
+        <li>HTML5</li>
+        <li>PHP</li>
+        <li>JavaScript</li>
+        </section>
+     </ul>
+     <hr>
+</main>
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+
+    <section id="projetos">
+     <h2>Meus Projetos</h2>
+     <table border="1" cellpadding="10" cellspacing="0" width="50%">
+        <!-- Cabeçalho da tabela -->
+         <thead>
+            <tr>
+                <th>Projetos</th>
+                <th>Tecnologias</th>
+                <th>Status</th>
+                <th>Links</th>
+            </tr>
+         </thead>
+         <!-- Corpo da tabela -->
+        <tbody>
+            <tr>
+                <td>Desafio games retro</td>
+                <td>HTML</td>
+                <td>Finalizado</td>
+                <td><a href="https://github.com/TrovaoFps/desafio_games_retro_html.git">Ver Projeto</a></td>
+            </tr>
+            <tr>
+                <td>Projeto Filme MJ</td>
+                <td>HTML</td>
+                <td>Finalizado</td>
+                <td><a href="https://github.com/TrovaoFps/projeto-filme.git">Ver Projeto</a></td>
+            </tr>
+            <tr>
+                <td>php-exemplos-basicos</td>
+                <td>PHP</td>
+                <td>Em andamento</td>
+                <td><a href="https://github.com/TrovaoFps/php-exemplos-basicos.git">Ver Projeto</a></td>
+            </tr>
+        </tbody>
+    </table><br>
+    <hr>
+</section>
+
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+
+    <h2>Entre em Contato</h2>
+  <form action="processar.php" method="post">
+    <fieldset>
+        <legend>Dados do contato</legend>
+        <!-- Campo de texto simples -->
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <!-- Campo de email com validação -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="assunto">Assunto:</label><br>
+        <select id="assunto" name="assunto">
+            <option value="">Selecione uma opção</option>
+            <option value="estagio">Proposta de Estágio</option>
+            <option value="duvida">Dúvida sobre projeto</option>
+            <option value="">Parceria</option>
+        </select><br><br>
+
+        <label for="mensagem">Mensagem:</label>
+         <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+         <button type="submit">Enviar Mensagem</button>
+        </fieldset>
+        <p>© 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+    <hr>
+    <p><a href="lucas.q.santos@edu.senai.br">lucas.q.santos@edu.senai.br</a></p> 
+</body>
+</html>
